@@ -1,0 +1,49 @@
+
+#pefilVendedor .inmuebles .propiedad{
+    width: 85%;
+}
+
+#pefilVendedor #historial hr{
+    height: 0;
+    overflow: visible;
+    width: 85%;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+.botones{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.botones input{
+    margin-right: 2rem;
+    width: 13rem;
+}
+
+#tblHistorial{
+    margin: 0 auto;
+    background-color: lightgray;
+    border-radius: 15px;
+    width: 85%;
+    height: 47rem;
+}
+
+#tblHistorial th{
+    text-align: center;
+    height: 5rem;
+    border-right: solid white;
+}
+
+#tblHistorial td{
+    border-right: solid white;
+}
+
+#tblHistorial td:last-child {
+    border-right: 0;
+}
+
+#tblHistorial th:last-child {
+    border-right: 0;
+}

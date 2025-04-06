@@ -1,0 +1,53 @@
+
+
+/*Aqui cuando se meta JS se tiene que cambiar para que se inserte la imagen no hardcoded*/
+/* .img-prop1 {
+    background-image: url("../IMG/casa1.jpg");
+    flex: 1;
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+.img-prop2 {
+    background-image: url("../IMG/casa2.jpg");
+    flex: 1;
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+.img-prop3 {
+    background-image: url("../IMG/casa3.jpg");
+    flex: 1;
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    
+}
+.img-prop4 {
+    background-image: url("../IMG/casa4.jpg");
+    flex: 1;
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+} */
+
+
+.search-bar-inmuebles {
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+.search-bar-inmuebles input{
+    padding: 6px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 8px;
+    font-size: 17px;
+    width: 550px;
+
+  }

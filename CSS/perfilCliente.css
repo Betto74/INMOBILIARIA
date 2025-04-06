@@ -1,0 +1,25 @@
+#tblHistorial{
+    margin: 0 auto;
+    background-color: lightgray;
+    border-radius: 15px;
+    width: 85%;
+    height: 47rem;
+}
+
+#tblHistorial th{
+    text-align: center;
+    height: 5rem;
+    border-right: solid white;
+}
+
+#tblHistorial td{
+    border-right: solid white;
+}
+
+#tblHistorial td:last-child {
+    border-right: 0;
+}
+
+#tblHistorial th:last-child {
+    border-right: 0;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="CSS/normalize.css" as="style">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="preload" href="CSS/styles.css" as="style">
+    <link href="CSS/general.css" rel="stylesheet">
+    <link href="CSS/aeInmueble.css" rel="stylesheet">
+    <title>Agregar Inmueble</title>
+</head>
+
+<body>
+    <header id="title">
+        <h2>Agregar Inmueble</h2>
+    </header>
+
+    <form class="AE-inmueble">
+        <!-- Fila 1 -->
+        <div class="row">
+            <div class="text-input col-70">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+            </div>
+            <div class="text-input col-30">
+                <label for="precio">Precio</label>
+                <input type="text" name="precio" id="precio" placeholder="Precio">
+            </div>
+        </div>
+
+        <!-- Fila 2 -->
+        <div class="row">
+            <div class="text-input col-30">
+                <label for="habitaciones">Habitaciones</label>
+                <input type="number" name="habitaciones" id="habitaciones" placeholder="Habitaciones">
+            </div>
+            <div class="text-input col-30">
+                <label for="banos">Baños</label>
+                <input type="number" name="banos" id="banos" placeholder="Cantidad de baños">
+            </div>
+            <div class="text-input col-30">
+                <label for="estacionamiento" id="center">Estacionamiento</label>
+                <input type="checkbox" name="estacionamiento" id="estacionamiento">
+            </div>
+        </div>
+
+        <!-- Fila 3 -->
+        <div class="row">
+            <div class="text-input col-100">
+                <label for="direccion">Dirección</label>
+                <input type="text" name="direccion" id="direccion" placeholder="Dirección">
+            </div>
+        </div>
+
+        <!-- Fila 4 -->
+        <div class="row">
+            <div class="text-input col-100">
+                <label for="descripcion">Descripción</label>
+                <textarea name="descripcion" id="descripcion" placeholder="Descripción"></textarea>
+            </div>
+        </div>
+
+        <!-- Fila 5 -->
+        <div class="file-uploader">
+            <label for="file-up">Fotos</label>
+            <input type="file" name="file-up" id="file-up">
+            <label for="file-up" id="txt-file"><svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#000000"><path d="M450-313v-371L330-564l-43-43 193-193 193 193-43 43-120-120v371h-60ZM220-160q-24 0-42-18t-18-42v-143h60v143h520v-143h60v143q0 24-18 42t-42 18H220Z"/></svg></label>
+        </div>
+
+        <button class="large">Aceptar</button>
+        <a href="index.html">Volver</a>
+    </form>
+</body>
+
+</html>
